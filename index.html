@@ -6,6 +6,10 @@ layout: default
 
   <h1>Testing, testing... one, two, three!</h1>
 
+  {% if site.internal %}
+  <p>Note: this is the internal version of the site!</p>
+  {% endif %}
+
   <p>Please ignore this proof-of-concept site
      and read some of our good stuff at 
      <a href="{{ site.baseurl }}">18F Pages</a>
